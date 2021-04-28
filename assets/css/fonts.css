@@ -1,0 +1,12 @@
+@font-face {
+	font-family: "Sudo";
+	font-style: normal;
+  font-display: swap;
+	font-weight: 300;
+  src: url("/fonts/SudoVariable.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "IMFellEnglish-Regular";
+  src: url("/fonts/IMFellEnglish-Regular.ttf") format('ttf');
+}

@@ -1,0 +1,139 @@
+{
+    "hikingInformation": [
+        {
+            "id": 1,
+            "name": "Sept Cascades",
+            "tag": "waterfall",
+            "description": "1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce et iaculis purus. Integer in lectus justo. Maecenas auctor nulla imperdiet accumsan commodo. Suspendisse fermentum finibus sem ac aliquet. Vestibulum congue cursus turpis, vel pulvinar nulla interdum nec. In sagittis lobortis iaculis. Nunc auctor accumsan sem vel scelerisque. Vivamus eget tellus tempor, ullamcorper sem id, suscipit sapien. Aliquam maximus mattis ex id lobortis. Nulla fermentum sapien id odio gravida maximus. Aenean rutrum purus vel suscipit tristique. Pellentesque semper nulla ut porta commodo. Vivamus eu malesuada mauris, laoreet rutrum metus. Aenean lorem odio, egestas et quam vitae, tincidunt tempor erat. In vulputate nulla sit amet tempus lacinia. Proin porttitor pulvinar tortor in elementum. Sed sapien orci, finibus quis elit nec, egestas dictum elit. Pellentesque aliquet lorem ut blandit gravida. Mauris dignissim convallis finibus. Vivamus venenatis facilisis tortor eget varius. Etiam ullamcorper enim justo, et imperdiet nibh scelerisque quis. Vivamus ac nunc massa. Phasellus fermentum pellentesque dolor. Maecenas tempor ex id aliquam tincidunt. Aliquam nec orci id arcu faucibus luctus.",
+            "difficulty": "3",
+            "location": "South",
+            "imgUrl": "1"
+        },
+        {
+            "id": 2,
+            "name": "Chamouny",
+            "tag": "waterfall",
+            "description": "2 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce et iaculis purus. Integer in lectus justo. Maecenas auctor nulla imperdiet accumsan commodo. Suspendisse fermentum finibus sem ac aliquet. Vestibulum congue cursus turpis, vel pulvinar nulla interdum nec. In sagittis lobortis iaculis. Nunc auctor accumsan sem vel scelerisque. Vivamus eget tellus tempor, ullamcorper sem id, suscipit sapien. Aliquam maximus mattis ex id lobortis. Nulla fermentum sapien id odio gravida maximus. Aenean rutrum purus vel suscipit tristique. Pellentesque semper nulla ut porta commodo. Vivamus eu malesuada mauris, laoreet rutrum metus.vulputate nulla sit amet tempus lacinia. Proin porttitor pulvinar tortor in elementum. Sed sapien orci, finibus quis elit nec, egestas dictum elit. Pellentesque aliquet lorem ut blandit gravida. Mauris dignissim convallis finibus. Vivamus venenatis facilisis tortor eget varius. Etiam ullamcorper enim justo, et imperdiet nibh scelerisque quis. Vivamus ac nunc massa. Phasellus fermentum pellentesque dolor. Maecenas tempor ex id aliquam tincidunt. Aliquam nec orci id arcu faucibus luctus.",
+            "difficulty": "2",
+            "location": "South",
+            "imgUrl": "2"
+        },
+        {
+            "id": 4,
+            "name": "Cascade 500 pied",
+            "tag": "waterfall",
+            "description": "",
+            "difficulty": "5",
+            "location": "South",
+            "imgUrl": "4"
+        },
+        {
+            "id": 5,
+            "name": "Rochester Fall",
+            "tag": "waterfall",
+            "description": "",
+            "difficulty": "2",
+            "location": "South",
+            "imgUrl": "5"
+        },
+        {
+            "id": 6,
+            "name": "Le Pouce",
+            "tag": "mountain",
+            "description": "Le Pouce (English: The Thumb) is the third highest mountain in Mauritius, at 812 meters (2664 feet).It is named Le Pouce because of the thumb-shaped peak of the mountain.[1][3] It can be viewed from the capital of Mauritius, Port Louis, and is a popular hike for the view of the city.[1] The mountain is in the Moka Range and is closest to the village of La Laura-Malenga in the Moka District. Charles Darwin ascended the mountain on 2 May 1836. Le Pouce is overgrown with guava and acacia, which are not native to the area.[6] One example of flora endemic to Le Pouce is Pandanus pseudomontanus commonly known as Le Pouce Mountain Screwpine. This plant is not officially listed on the IUCN Red List, but IUCN has potentially assessed it as critically endangered. The only individuals of this species are two plants in the Le Pouce Mountain Nature Reserve. Since both of these are male plants, the species is at extremely high risk of extinction'. The trek to the top of Le Pouce is considered an easy hike.[1] However, the ascent is very steep, especially near the thumb. Le Pouce can be reached from Moka or Port Louis. Unlike Pieter Both, climbing gear is not needed. From the peak, Port Louis, Moka, and Beau-Bassin Rose-Hill can be seen, as well as many other places around the island.",
+            "difficulty": "3",
+            "location": "Center",
+            "imgUrl": "7"
+        },
+        {
+            "id": 7,
+            "name": "Le Pouce",
+            "tag": "mountain",
+            "description": "",
+            "difficulty": "3",
+            "location": "Center",
+            "imgUrl": "7"
+        },
+        {
+            "id": 8,
+            "name": "Cascade Leon",
+            "tag": "waterfall",
+            "description": "",
+            "difficulty": "2",
+            "location": "South",
+            "imgUrl": "3"
+        },
+        {
+            "id": 9,
+            "name": "Le Morne",
+            "tag": "mountain",
+            "description": "",
+            "difficulty": "3",
+            "location": "South-West",
+            "imgUrl": "6"
+        },
+        {
+            "id": 10,
+            "name": "Sept Cascades",
+            "tag": "waterfall",
+            "description": "",
+            "difficulty": "3",
+            "location": "South",
+            "imgUrl": "1"
+        },
+        {
+            "id": 11,
+            "name": "Chamouny",
+            "tag": "waterfall",
+            "description": "",
+            "difficulty": "2",
+            "location": "South",
+            "imgUrl": "2"
+        },
+        {
+            "id": 12,
+            "name": "Cascade 500 pied",
+            "tag": "waterfall",
+            "description": "",
+            "difficulty": "5",
+            "location": "South",
+            "imgUrl": "4"
+        },
+        {
+            "id": 13,
+            "name": "Rochester Fall",
+            "tag": "waterfall",
+            "description": "",
+            "difficulty": "2",
+            "location": "South",
+            "imgUrl": "5"
+        },
+        {
+            "id": 14,
+            "name": "Le Pouce",
+            "tag": "mountain",
+            "description": "",
+            "difficulty": "3",
+            "location": "Center",
+            "imgUrl": "7"
+        },
+        {
+            "id": 15,
+            "name": "Cascade Leon",
+            "tag": "waterfall",
+            "description": "",
+            "difficulty": "2",
+            "location": "South",
+            "imgUrl": "3"
+        },
+        {
+            "id": 16,
+            "name": "Le Morne",
+            "tag": "mountain",
+            "description": "",
+            "difficulty": "3",
+            "location": "South-West",
+            "imgUrl": "6"
+        }
+    ]
+}
