@@ -1,7 +1,7 @@
 <template>
   <div class="h-screen test">
     <div
-      class="text-gray-400 p-4 absolute"
+      class="text-gray-400 hover:bg-purple-500 p-4 absolute"
       v-if="isPanelClosed"
       @click="showHidePanel()"
     >
@@ -21,10 +21,10 @@
       </svg>
     </div>
     <aside
-      class="h-full w-3/12  bg-gradient-to-tr from-purple-900 to-gray-900 fixed panel"
+      class="h-full w-3/4 sm:w-3/12 md:w-3/12 bg-gradient-to-tr from-purple-900 to-black fixed panel"
       v-else
     >
-      <div class="absolute right-1 p-4 text-indigo-50" @click="showHidePanel()">
+      <div class="absolute right-1 p-4 text-indigo-50 hover:text-purple-500" @click="showHidePanel()">
         <svg
           class="w-4 h-4"
           fill="none"
@@ -41,20 +41,20 @@
         </svg>
       </div>
       <div
-        class="mt-12 mx-8 text-sm text-indigo-50 font-rochester cursor-pointer"
+        class="mt-12 mx-8 text-sm sm:text-base text-indigo-50 font-rochester cursor-pointer md:text-base"
       >
         <p
           v-for="label in labels"
           :key="label"
           @click="displayAmbiance(label)"
-          class="btn"
+          class="hover:bg-black rounded-lg p-2 m-1"
         >
           {{ label }}
         </p>
       </div>
     </aside>
     <div
-      class="text-gray-400 flex justify-end p-4 hover:text-purple-500 cursor-pointer"
+      class="text-gray-400 p-4 hover:text-purple-500 cursor-pointer absolute right-0"
       @click="play()"
       v-if="!playing"
     >
@@ -81,7 +81,7 @@
       </svg>
     </div>
     <div
-      class="text-gray-400 flex justify-end p-4 hover:text-purple-500 cursor-pointer"
+      class="text-gray-400 p-4 hover:text-purple-500 cursor-pointer absolute right-0"
       @click="play()"
       v-else
     >
@@ -116,6 +116,7 @@
         v-if="label !== 'Ocean'"
       />
       <Waves v-if="label === 'Ocean'" />
+      
       <audio autoplay loop ref="audio">
         <source :src="getSource" type="audio/mp3" v-if="label" />
         Your browser does not support the audio element.
@@ -126,8 +127,10 @@
 
 <script>
 import Waves from "../components/Waves.vue";
+//import nature from "../components/nature.vue"
 export default {
-  components: { Waves },
+  components: { Waves
+   },
   mounted() {
     // this.displayAmbiance(this.label);
   },
